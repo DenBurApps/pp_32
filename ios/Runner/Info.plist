@@ -26,6 +26,10 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>In order for the user to take a picture of the dish and attach the image to the recipe</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>In order for the user to attach a photo from his gallery to the recipe</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
  	<false/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
