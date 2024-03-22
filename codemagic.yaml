@@ -8,7 +8,7 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.fooplan.tedpp32
+        bundle_identifier: com.32appars.apprr
       flutter: stable
       xcode: latest
       cocoapods: default
