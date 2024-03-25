@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "701132828293",
-    "project_id": "appnamepp32nutriars",
-    "storage_bucket": "appnamepp32nutriars.appspot.com"
+    "project_number": "1090140964198",
+    "project_id": "frbspp32",
+    "storage_bucket": "frbspp32.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:701132828293:android:38588b263794e67c6843ec",
+        "mobilesdk_app_id": "1:1090140964198:android:5e375178bee8e2475e74a7",
         "android_client_info": {
           "package_name": "com.example.pp_32"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAqbHWHbhUqsfynZPPm_nNg3XLAe97jDUM"
+          "current_key": "AIzaSyCCD9BjxfH0rO1mIm9thcbRj4KMG8mrFNA"
         }
       ],
       "services": {

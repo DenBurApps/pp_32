@@ -28,7 +28,10 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -47,28 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAqbHWHbhUqsfynZPPm_nNg3XLAe97jDUM',
-    appId: '1:701132828293:android:38588b263794e67c6843ec',
-    messagingSenderId: '701132828293',
-    projectId: 'appnamepp32nutriars',
-    storageBucket: 'appnamepp32nutriars.appspot.com',
+    apiKey: 'AIzaSyCCD9BjxfH0rO1mIm9thcbRj4KMG8mrFNA',
+    appId: '1:1090140964198:android:5e375178bee8e2475e74a7',
+    messagingSenderId: '1090140964198',
+    projectId: 'frbspp32',
+    storageBucket: 'frbspp32.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBwIN3fT1QV23vA4_R7QgNIzhnQyZt9fKo',
-    appId: '1:701132828293:ios:63b6f75f83cd700d6843ec',
-    messagingSenderId: '701132828293',
-    projectId: 'appnamepp32nutriars',
-    storageBucket: 'appnamepp32nutriars.appspot.com',
-    iosBundleId: 'com.example.pp32',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBwIN3fT1QV23vA4_R7QgNIzhnQyZt9fKo',
-    appId: '1:701132828293:ios:5db1d2dbe187babb6843ec',
-    messagingSenderId: '701132828293',
-    projectId: 'appnamepp32nutriars',
-    storageBucket: 'appnamepp32nutriars.appspot.com',
-    iosBundleId: 'com.example.pp32.RunnerTests',
+    apiKey: 'AIzaSyAi0d_q9x0mFCCDpYuRq7tbhLios-YYVsc',
+    appId: '1:1090140964198:ios:fa99c76df60c856e5e74a7',
+    messagingSenderId: '1090140964198',
+    projectId: 'frbspp32',
+    storageBucket: 'frbspp32.appspot.com',
+    iosBundleId: 'com.32appars.apprr',
   );
 }
