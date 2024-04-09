@@ -52,7 +52,7 @@ class MealPlaner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'NutriPlanner Pro',
+      title: 'NutriPlanner Pro Tiger',
       routes: Routes.get(context),
       initialRoute: RouteNames.splash,
       navigatorObservers: [
