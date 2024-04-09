@@ -42,6 +42,7 @@ workflows:
       email:
         recipients:
           - denwhite223@gmail.com
+          - emelin23g@gmail.com
         notify:
           success: true
           failure: true
